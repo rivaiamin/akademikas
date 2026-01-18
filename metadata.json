@@ -1,0 +1,7 @@
+{
+  "name": "AkademiKas - Integrated Campus Finance System",
+  "description": "A comprehensive financial management system for universities featuring student billing, double-entry accounting, bank reconciliation, and AI-powered financial insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
