@@ -33,6 +33,7 @@ jobs:
           pnpm run build
         env:
           API_KEY: ${{ secrets.API_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
